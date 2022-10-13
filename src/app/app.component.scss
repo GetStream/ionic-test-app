@@ -1,0 +1,7 @@
+// Responsive layout now is fully controlled by the integrator, example for full width thread below, more complex example: https://getstream.io/chat/docs/sdk/angular/code-examples/responsive-layout/
+.thread {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+}
