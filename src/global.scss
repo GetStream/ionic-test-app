@@ -57,4 +57,8 @@
   .str-chat__message--other {
     --str-chat__card-attachment-color: lightblue;
   }
+
+  .str-chat__jump-to-latest-message {
+    display: none;
+  }
 }
