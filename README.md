@@ -24,3 +24,9 @@ This step assumes that you have the necessary Xcode setup on your local machine.
 npx cap copy ios
 npx cap open ios
 ```
+
+## Run in browser
+
+```
+npm start
+```
