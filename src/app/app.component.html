@@ -1,11 +1,16 @@
 <ion-content [fullscreen]="true" forceOverscroll="true">
   <stream-channel>
     <stream-channel-header></stream-channel-header>
-    <stream-message-list></stream-message-list>
+    <stream-message-list
+      messageOptionsTrigger="message-bubble"
+    ></stream-message-list>
     <stream-notification-list></stream-notification-list>
     <stream-message-input></stream-message-input>
     <stream-thread class="thread" name="thread">
-      <stream-message-list mode="thread"></stream-message-list>
+      <stream-message-list
+        messageOptionsTrigger="message-bubble"
+        mode="thread"
+      ></stream-message-list>
       <stream-message-input mode="thread"></stream-message-input>
     </stream-thread>
   </stream-channel>
